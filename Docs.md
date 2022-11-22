@@ -16,7 +16,11 @@ to install run
 ```powershell
 npm install mljs
 ```
-
+to import, at the top of your script write
+```js
+import { /*imports here*/ } from 'mljs'
+```
+# functions
 # EnvSetting
 Env Settings is a function that can make editing objects easier.
 
