@@ -45,3 +45,21 @@ value(s) by 255, this function does that for you!
 note.color = [ezRGB(69), ezRGB(255), ezRGB(33)]
 ```
 
+# Scene Object
+
+***Format:***
+```
+SceneObject(object, lookupM, active, sclx, scly, sclz, posx, posy, posz, rotx, roty, rotz)
+```
+* Object: the i'd of the environment object
+* lookupM: The lookupMethod (Regex, Contains, etc)
+* active: If set to false then the object that was set will be removed, filling in the other params is useless in this case.
+* sclx: (Scale X) the scale of the object on the x axis
+* scly: (Scale Y) the scale of the object on the y axis
+* sclz: (Scale Z) the scale of the object on the z axis
+* posx, posy, posz, rotx, roty, rotz are the same as scale other than what they do
+
+***Example:***
+```powershell
+SceneObject(Clouds, Contains, true, 1, 1, 1, 3, 3, 3, 30, 30, 30)
+```
