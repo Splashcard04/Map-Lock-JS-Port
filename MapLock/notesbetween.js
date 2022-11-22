@@ -17,7 +17,7 @@ const customEvents = customData._customEvents;
 function notesBetween(t1, t2, customNoteData){
     filterednotes = notes.filter(n => n._time >= t1 && n._time < t1);
    filterednotes.forEach(note => {
-     note._customData._animation = {}
+     //note._customData._animation = {}
      customNoteData
      
    })

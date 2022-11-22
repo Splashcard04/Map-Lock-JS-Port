@@ -10,7 +10,7 @@
 function wallsBetween(t1, t2, customWallData){
     filteredwalls = walls.filter(n => n._time >= t1 && n._time < t1);
     filteredwalls.forEach(wall => {
-        wall._customData._animation = {}
+        //wall._customData._animation = {}
         customWallData
     })
 }
