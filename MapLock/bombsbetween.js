@@ -9,7 +9,7 @@
 function bombsBetween(t1, t2, customBombData){
     filteredbombs = bombs.filter(n => n._time >= t1 && n._time < t1);
     filteredbombs.forEach(bomb => {
-        bomb._customData._animation = {}
+        //bomb._customData._animation = {}
         customBombData
     })
 }
