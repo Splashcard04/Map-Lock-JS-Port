@@ -64,3 +64,16 @@ SceneObject(object, lookupM, active, sclx, scly, sclz, posx, posy, posz, rotx, r
 ```powershell
 SceneObject(Clouds, Contains, true, 1, 1, 1, 3, 3, 3, 30, 30, 30)
 ```
+
+# notesBetween V1
+This function is just copied from Remapper but less efficient.
+**Example:**
+```
+notesBetween(
+    0,  //Time it starts
+    20, //TIme it ends
+    note._customData._animation = [ANIMATION HERE] //You can only have 1 custom data per function! (sorry about this!)
+)
+```
+
+everything you can do can be found [here](https://github.com/Aeroluna/Heck/wiki/AnimationProperties)
