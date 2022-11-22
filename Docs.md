@@ -1,14 +1,14 @@
 # Before we get started!
 This is a port/parody of Maplock by SplashCard. We **HIGHLY** recommend you to use Remapper instead of JavaScript, it's much easier and will get support for longer. If you need any help then please contact one of us: (It's advised to contact TsarK, he knows JavaScript more than ScuffedItalian and Splashcard)
 
-*TsarK#0480
-*splashcard#2121
+* TsarK#0480
+* splashcard#2121
 
 ### Credits:
 
-*Splashcard__ - Developer/maintainer of the original maplock
-*TsarK - Assistance with the JavaScript port
-*ScuffedItalian - Code writer of the JavaScript
+* Splashcard__ - Developer/maintainer of the original maplock
+* TsarK - Assistance with the JavaScript port
+* ScuffedItalian - Code writer of the JavaScript
 
 # install
 
