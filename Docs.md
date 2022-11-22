@@ -77,3 +77,38 @@ notesBetween(
 ```
 
 everything you can do can be found [here](https://github.com/Aeroluna/Heck/wiki/AnimationProperties)
+
+# wallsBetween V1
+This function is just copied from Remapper but less efficient.
+**Example:**
+```
+wallsBetween(
+    0,  //Time it starts
+    20, //TIme it ends
+    note._customData._animation = [ANIMATION HERE] //You can only have 1 custom data per function! (sorry about this!)
+)
+```
+
+everything you can do can be found [here](https://github.com/Aeroluna/Heck/wiki/AnimationProperties)
+
+
+# bombsBetween V1
+This function is just copied from Remapper but less efficient.
+**Example:**
+```
+bombsBetween(
+    0,  //Time it starts
+    20, //TIme it ends
+    note._customData._animation = [ANIMATION HERE] //You can only have 1 custom data per function! (sorry about this!)
+)
+```
+* This is a very uncommon function and will most likely not be updated for some time!
+everything you can do can be found [here](https://github.com/Aeroluna/Heck/wiki/AnimationProperties)
+
+# Upcoming updates
+This library will be maintained for some time
+**Content planed for next update:**
+* Improve the between functions
+* Add more utlities
+* QOL changes
+* Beatmap v3 functionality (will happen when SP template gets updated.)
