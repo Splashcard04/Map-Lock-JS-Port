@@ -8,12 +8,12 @@ npm install mljs
 # EnvSetting
 Env Settings is a function that can make editing objects easier.
 
-if ```disabled``` is set to true then setting other
-values will be pointless.
-
+If disabled is set to true then you can just set the other values to 0 like this:
 ```powershell
 envSettings(true, 0, 0, 0, 0, 0, 0)
 ```
 
-if you do want to set ```disabled``` to true then filling out the other parms are needed!
-
+If you want to change the scale, position, etc then set disabled to false
+```
+envSettings(false, 69, 69, 69, 69, 69, 69)
+```
