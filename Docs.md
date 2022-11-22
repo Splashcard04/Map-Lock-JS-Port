@@ -1,5 +1,5 @@
 # Before we get started!
-This is a port/parody of Maplock by SplashCard. We **HIGHLY** recommend you to use Remapper instead of JavaScript, it's much easier and will get support for longer. If you need any help then please contact one of us: (It's advised to contact TsarK, he knows JavaScript more than ScuffedItalian and Splashcard)
+This is a port/parody of [Maplock](https://github.com/Splashcard04/MapLock) by SplashCard. We **HIGHLY** recommend you to use [Remapper](https://github.com/Swifter1243/ReMapper) instead of JavaScript, it's much easier and will get support for longer. If you need any help then please contact one of us: (It's advised to contact TsarK, he knows JavaScript more than ScuffedItalian and Splashcard)
 
 * TsarK#0480
 * splashcard#2121
@@ -46,6 +46,7 @@ note.color = [ezRGB(69), ezRGB(255), ezRGB(33)]
 ```
 
 # Scene Object
+This allows you to make basic changes easily without environment.push()
 
 ***Format:***
 ```
