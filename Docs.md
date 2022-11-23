@@ -123,6 +123,7 @@ stars(50, 255, 0.3, 20, 40)
 ```
 
 **Explenation:**
+```
 stars(
     50, //The amount of stars to be generated
     255, //The color in a RGB format (COLORS WITH ALL 3 VALUES THE SAME! )
@@ -130,6 +131,7 @@ stars(
     20, //Time the stars appear!
     40 //Time the stars stop.
 )
+```
 
 # Upcoming updates
 This library will be maintained for some time
