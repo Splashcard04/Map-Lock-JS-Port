@@ -109,6 +109,28 @@ bombsBetween(
 * This is a very uncommon function and will most likely not be updated for some time!
 everything you can do can be found [here](https://github.com/Aeroluna/Heck/wiki/AnimationProperties)
 
+#Stars
+The stars function allows you to create stars out of walls!
+
+**Function Formate:**
+```
+stars(amount, color, size, timeStart, timeEnd)
+```
+
+**Example:**
+```powershell
+stars(50, 255, 0.3, 20, 40)
+```
+
+**Explenation:**
+stars(
+    50, //The amount of stars to be generated
+    255, //The color in a RGB format (COLORS WITH ALL 3 VALUES THE SAME! )
+    0.3, //The size of each indevidule star
+    20, //Time the stars appear!
+    40 //Time the stars stop.
+)
+
 # Upcoming updates
 This library will be maintained for some time
 **Content planed for next update:**
@@ -116,3 +138,4 @@ This library will be maintained for some time
 * Add more utlities
 * QOL changes
 * Beatmap v3 functionality (will happen when SP template gets updated.)
+* Revamp and purify the ```Stars``` function
