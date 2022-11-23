@@ -114,12 +114,12 @@ The stars function allows you to create stars out of walls!
 
 **Function Formate:**
 ```
-stars(amount, color, size, timeStart, timeEnd)
+stars(amount, color, size, timeStart, timeEnd, track)
 ```
 
 **Example:**
 ```powershell
-stars(50, 255, 0.3, 20, 40)
+stars(50, 255, 0.3, 20, 40, "waterTrack")
 ```
 
 **Explenation:**
@@ -129,7 +129,30 @@ stars(
     255, //The color in a RGB format (COLORS WITH ALL 3 VALUES THE SAME! )
     0.3, //The size of each indevidule star
     20, //Time the stars appear!
-    40 //Time the stars stop.
+    40, //Time the stars stop
+    "Water" //Track the water will be on!
+)
+```
+
+# Water 
+This function is used to make nice blue water using walls!
+
+**Function Format:**
+```
+water(timeStart, timeEnd, track, positionY)
+```
+
+**Example:**
+```powershell
+water(0, 100, "Water1", -1);
+```
+**Explenation:**
+```powershell
+water(
+    0, //Time the water wall will begin!
+    100, //Time the water wall ends!
+    "Water1", //The track the water will be assigned to
+    -1 //The Y position the water will be at (up and down)
 )
 ```
 
