@@ -98,7 +98,7 @@ const precision = 4
 
 // WRITE YOUR SCRIPT IN HERE ˇ
 
-function stars(amount, color, size, timeStart, timeEnd){
+function stars(amount, color, size, timeStart, timeEnd, track){
     for(let i = 0; i < amount; i++){
         walls.push({
             "_time": timeStart,
@@ -107,7 +107,7 @@ function stars(amount, color, size, timeStart, timeEnd){
             "_duration": timeEnd - timeStart,
             "_width": 0,
             "_customData": {
-                _track: "stars",
+                _track: track,
                 _color: [color, color, color],
                 _fake: true,
                 _interactable: false,
