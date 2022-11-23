@@ -109,7 +109,7 @@ bombsBetween(
 * This is a very uncommon function and will most likely not be updated for some time!
 everything you can do can be found [here](https://github.com/Aeroluna/Heck/wiki/AnimationProperties)
 
-#Stars
+# Stars
 The stars function allows you to create stars out of walls!
 
 **Function Formate:**
