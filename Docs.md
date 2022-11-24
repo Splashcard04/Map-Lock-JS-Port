@@ -156,6 +156,28 @@ water(
 )
 ```
 
+
+
+# Rain
+**Format:**
+```powershell
+function rainEff(starting, rainDur, amount, scalePerDrop, rTrack, rColor)
+```
+**Example:**
+```powershell
+rainEff(0, 20, 150, 0.3);
+```
+**Breakdown:**
+
+```powershell
+rainEff(
+    0, //Starting beat
+    20, //Beat duration
+    150, //The amount of raindrops
+    0.3 //The size of each indevidule raindrop!
+)
+```
+
 # Upcoming updates
 This library will be maintained for some time
 **Content planed for next update:**
