@@ -1,3 +1,5 @@
+* Version 1.0.5
+**Last update by: Tsar**
 # Before we get started!
 This is a port/parody of [Maplock](https://github.com/Splashcard04/MapLock) by SplashCard. We **HIGHLY** recommend you to use [Remapper](https://github.com/Swifter1243/ReMapper) instead of JavaScript, it's much easier and will get support for longer. If you need any help then please contact one of us: (It's advised to contact TsarK, he knows JavaScript more than ScuffedItalian and Splashcard)
 
