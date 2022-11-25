@@ -1,3 +1,9 @@
+const bombs = difficulty._bombs;
+const walls = difficulty._obstacles;
+const notes = difficulty._notes;
+const environment = customData._environment;
+const customEvents = customData._customEvents;
+
 /**
  * 
  * @param {*} t1 Time it starts

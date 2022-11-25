@@ -1,3 +1,4 @@
+
 # Before we get started!
 This is a port/parody of [Maplock](https://github.com/Splashcard04/MapLock) by SplashCard. We **HIGHLY** recommend you to use [Remapper](https://github.com/Swifter1243/ReMapper) instead of JavaScript, it's much easier and will get support for longer. If you need any help then please contact one of us: (It's advised to contact TsarK, he knows JavaScript more than ScuffedItalian and Splashcard)
 
@@ -109,6 +110,75 @@ bombsBetween(
 * This is a very uncommon function and will most likely not be updated for some time!
 everything you can do can be found [here](https://github.com/Aeroluna/Heck/wiki/AnimationProperties)
 
+# Stars
+The stars function allows you to create stars out of walls!
+
+**Function Formate:**
+```
+stars(amount, color, size, timeStart, timeEnd, track)
+```
+
+**Example:**
+```powershell
+stars(50, 255, 0.3, 20, 40, "waterTrack")
+```
+
+**Explenation:**
+```
+stars(
+    50, //The amount of stars to be generated
+    255, //The color in a RGB format (COLORS WITH ALL 3 VALUES THE SAME! )
+    0.3, //The size of each indevidule star
+    20, //Time the stars appear!
+    40, //Time the stars stop
+    "Water" //Track the water will be on!
+)
+```
+
+# Water 
+This function is used to make nice blue water using walls!
+
+**Function Format:**
+```
+water(timeStart, timeEnd, track, positionY)
+```
+
+**Example:**
+```powershell
+water(0, 100, "Water1", -1);
+```
+**Explenation:**
+```powershell
+water(
+    0, //Time the water wall will begin!
+    100, //Time the water wall ends!
+    "Water1", //The track the water will be assigned to
+    -1 //The Y position the water will be at (up and down)
+)
+```
+
+
+
+# Rain
+**Format:**
+```powershell
+function rainEff(starting, rainDur, amount, scalePerDrop, rTrack, rColor)
+```
+**Example:**
+```powershell
+rainEff(0, 20, 150, 0.3);
+```
+**Breakdown:**
+
+```powershell
+rainEff(
+    0, //Starting beat
+    20, //Beat duration
+    150, //The amount of raindrops
+    0.3 //The size of each indevidule raindrop!
+)
+```
+
 # Upcoming updates
 This library will be maintained for some time
 **Content planed for next update:**
@@ -116,3 +186,9 @@ This library will be maintained for some time
 * Add more utlities
 * QOL changes
 * Beatmap v3 functionality (will happen when SP template gets updated.)
+* Revamp and purify the ```Stars``` function
+
+### Version Stats
+* Version: 1.0.5
+* Most recent updater: TsarK
+* Most recent patch: 5 (Patches listed in patchL.md)
